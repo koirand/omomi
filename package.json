@@ -1,0 +1,11 @@
+{
+  "name": "omomi",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:koirand/omomi.git",
+  "author": "koirand <koirand.jp@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "solc": "^0.6.2"
+  }
+}
