@@ -5,6 +5,10 @@
   "repository": "git@github.com:koirand/omomi.git",
   "author": "koirand <koirand.jp@gmail.com>",
   "license": "MIT",
+  "scripts": {
+      "build": "./node_modules/.bin/solcjs --abi --bin -o ./build src/*",
+      "private-net": "geth --dev --datadir private-net console"
+  },
   "devDependencies": {
     "solc": "^0.6.3"
   }
